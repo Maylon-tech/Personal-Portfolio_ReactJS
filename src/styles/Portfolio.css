@@ -1,0 +1,7 @@
+.portfolio {
+    height: 100vh;
+    background-color: rgb(123, 197, 102);
+
+    display: grid;
+    place-items: center;
+}
