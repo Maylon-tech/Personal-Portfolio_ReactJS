@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import '../styles/Navbar.css'
 import Sidebar from './Sidebar'
 import logo from '../assets/images/Logo-removebg-preview.png'
+import { AiOutlineMenu } from 'react-icons/ai'
 
 const Navbar = () => {    
     const [isActive, setIsActive] = useState(false)
@@ -43,7 +44,9 @@ const Navbar = () => {
                     </div>
 
                     <div  className='mobile'>
-                        <button onClick={handleNavbarMenu}>Burger</button>
+                        <button onClick={handleNavbarMenu}>
+                            <AiOutlineMenu />
+                        </button>
                     </div>
 
                     { sidebar && <Sidebar control={setSidebar} />}

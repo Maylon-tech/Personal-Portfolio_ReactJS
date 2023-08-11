@@ -9,7 +9,7 @@ export const Hero = () => {
             <div className='hero-content'>
                 <div className="left-content">
                     <h3 className="small-title">Hello My Name is Mailon</h3>
-                    <h1 className="title">I'm ReactJS Web Developer</h1>
+                    <h1 className="title">I'm ReactJS Front-End Developer</h1>
 
                     <p className="desc">
                         It is a long established fact that a reader will be distracted 

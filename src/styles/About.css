@@ -1,6 +1,6 @@
 .about {
     height: 100vh;
-    background-color: aquamarine;
+    background-color: #eee;
 
     display: grid;
     place-items: center;
