@@ -5,11 +5,11 @@ import Footer from '../components/Footer'
 const TemplateDefault = ({ children }) => {
   return (
     <>
-    <Navbar />
-    <div>
-        { children }
-    </div>
-    <Footer />
+      <Navbar />
+      <div className='main-content'>
+          { children }
+      </div>
+      <Footer />
     </>
   )
 }

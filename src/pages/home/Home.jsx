@@ -7,14 +7,12 @@ import { Contact } from '../../components/Layouts/Contact'
 const Home = () => {
   return (
     <>
-       
-        <div>
-            <Hero />
-            <About />
-            <Portfolio />
-            <Contact />
-        </div>
-        
+      <div>
+          <Hero />
+          <About />
+          <Portfolio />
+          <Contact />
+      </div>
     </>
   )
 }
