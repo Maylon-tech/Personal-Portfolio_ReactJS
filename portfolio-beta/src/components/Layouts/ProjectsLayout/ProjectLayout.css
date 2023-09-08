@@ -1,0 +1,56 @@
+.container-project {
+    width: 100%;
+    min-height: 550px;
+    min-width: 900px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.container-project .projLanding {
+    background-color: orange;
+    width: 240px;
+    height: 240px;
+    border-radius: 5px;
+    border: 3px solid gray;
+    padding: 1rem;
+    font-size: .7rem;
+    color: white;
+
+}
+
+.container-project .projDashboard {
+    background-color: rgb(65, 65, 156);
+    width: 240px;
+    height: 240px;
+    border-radius: 5px;
+    border: 3px solid gray;
+    padding: 1rem;
+    font-size: .7rem;
+    color: white;
+}
+
+.container-project .projEcommerce {
+    background-color: rgb(77, 168, 77);
+    width: 240px;
+    height: 240px;
+    border-radius: 5px;
+    border: 3px solid gray;
+    padding: 1rem;
+    font-size: .7rem;
+    color: white;
+}
+
+.container-project .projCrudOther {
+    background-color: rgb(95, 47, 128);
+    width: 240px;
+    height: 240px;
+    border-radius: 5px;
+    border: 3px solid gray;
+    padding: 1rem;
+    font-size: .7rem;
+    color: white;
+}
