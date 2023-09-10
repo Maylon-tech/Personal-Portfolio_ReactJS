@@ -4,10 +4,10 @@ import '../ProjectLayout.css'
 const Ecommerce = () => {
   return (
     <div className='container-project'>
-        <div className="projEcommerce"><h2>Projeto Ecommerce Section</h2></div>
-        <div className="projEcommerce"><h2>Projeto Ecommerce Section</h2></div>
-        <div className="projEcommerce"><h2>Projeto Ecommerce Section</h2></div>
-        <div className="projEcommerce"><h2>Projeto Ecommerce Section</h2></div>
+        <div className="item-box projEcommerce"><h2>Projeto Ecommerce Section</h2></div>
+        <div className="item-box projEcommerce"><h2>Projeto Ecommerce Section</h2></div>
+        <div className="item-box projEcommerce"><h2>Projeto Ecommerce Section</h2></div>
+        <div className="item-box projEcommerce"><h2>Projeto Ecommerce Section</h2></div>
     </div>
   )
 }

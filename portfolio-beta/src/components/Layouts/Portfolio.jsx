@@ -4,8 +4,9 @@ import LandingPage from './ProjectsLayout/LandingPage/LandingPage'
 import Ecommerce from './ProjectsLayout/Ecommerce/Ecommerce'
 import Dashboard from './ProjectsLayout/Dashboard/Dashboard'
 import CrudOther from './ProjectsLayout/CrudOthers/CrudOther'
+import PortfolioProj from './ProjectsLayout/PortfolioProj/PortfolioProj'
 
-export const Portfolio= () => {
+export const Portfolio = () => {
     const [activeTab, setActiveTab] = useState()
 
     const handleToggle = (index) => {
@@ -32,19 +33,26 @@ export const Portfolio= () => {
                         onClick={() => handleToggle(2)}
                         className={activeTab === 2 ? 'items active' : 'items'}
                     >
-                        ECommerces
+                       Portfolio
                     </li>
 
                     <li
                         onClick={() => handleToggle(3)}
                         className={activeTab === 3 ? 'items active' : 'items'}
                     >
-                        Dashboards
+                        ECommerces
                     </li>
 
                     <li
                         onClick={() => handleToggle(4)}
                         className={activeTab === 4 ? 'items active' : 'items'}
+                    >
+                        Dashboards
+                    </li>
+
+                    <li
+                        onClick={() => handleToggle(5)}
+                        className={activeTab === 5 ? 'items active' : 'items'}
                     >
                         CRUD & Others
                     </li>
@@ -58,15 +66,19 @@ export const Portfolio= () => {
                 </div>
                     
                 <div>
-                    { activeTab === 2 ? <Ecommerce /> : null }
+                    { activeTab === 2 ? <PortfolioProj /> : null }
                 </div>
 
                 <div>
-                    { activeTab === 3 ? <Dashboard /> : null } 
+                    { activeTab === 3 ? <Ecommerce /> : null }
+                </div>
+
+                <div>
+                    { activeTab === 4 ? <Dashboard /> : null } 
                 </div>
 
                 <div> 
-                    { activeTab === 4 ? <CrudOther /> : null }
+                    { activeTab === 5 ? <CrudOther /> : null }
                 </div>
             </div>
         </section>

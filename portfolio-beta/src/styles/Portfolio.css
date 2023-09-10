@@ -38,13 +38,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1.4rem 0;
+    padding: 1rem 0;
 }
 .portfolio .menu-tabs ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1.3rem;
     list-style: none;
 }
 .portfolio .menu-tabs ul .items {
@@ -52,7 +52,7 @@
     border: 2px solid var(--primary-color);
     color: var(--primary-color);
     width: 140px;
-    padding: .5rem .4rem;
+    padding: .3rem .2rem;
     font-size: 1rem;
     text-align: center;
     border-radius: 5px;

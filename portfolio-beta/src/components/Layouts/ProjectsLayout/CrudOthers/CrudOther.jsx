@@ -4,14 +4,14 @@ import '../ProjectLayout.css'
 const CrudOther = () => {
   return (
         <div className='container-project'>
-            <div className="projCrudOther"><h2>Projeto CRUD & Others Section</h2></div>
-            <div className="projCrudOther"><h2>Projeto CRUD & Others Section</h2></div>
-            <div className="projCrudOther"><h2>Projeto CRUD & Others Section</h2></div>
-            <div className="projCrudOther"><h2>Projeto CRUD & Others Section</h2></div>
-            <div className="projCrudOther"><h2>Projeto CRUD & Others Section</h2></div>
-            <div className="projCrudOther"><h2>Projeto CRUD & Others Section</h2></div>
-            <div className="projCrudOther"><h2>Projeto CRUD & Others Section</h2></div>
-            <div className="projCrudOther"><h2>Projeto CRUD & Others Section</h2></div>
+            <div className="item-box projCrudOther"><h2>Projeto CRUD & Others Section</h2></div>
+            <div className="item-box projCrudOther"><h2>Projeto CRUD & Others Section</h2></div>
+            <div className="item-box projCrudOther"><h2>Projeto CRUD & Others Section</h2></div>
+            <div className="item-box projCrudOther"><h2>Projeto CRUD & Others Section</h2></div>
+            <div className="item-box projCrudOther"><h2>Projeto CRUD & Others Section</h2></div>
+            <div className="item-box projCrudOther"><h2>Projeto CRUD & Others Section</h2></div>
+            <div className="item-box projCrudOther"><h2>Projeto CRUD & Others Section</h2></div>
+            <div className="item-box projCrudOther"><h2>Projeto CRUD & Others Section</h2></div>
         </div>
     
   )

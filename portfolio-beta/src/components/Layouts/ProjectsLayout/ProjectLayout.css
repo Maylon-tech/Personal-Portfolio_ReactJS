@@ -10,47 +10,40 @@
     flex-wrap: wrap;
 }
 
-.container-project .projLanding {
-    background-color: orange;
-    width: 240px;
-    height: 240px;
+.container-project .item-box {
+    width: 280px;
+    height: 200px;
     border-radius: 5px;
     border: 3px solid gray;
     padding: 1rem;
-    font-size: .7rem;
-    color: white;
+}
 
+.container-project .projLanding {
+    background-color: orange;    
+    font-size: 1rem;
+    color: white;
+}
+
+.container-project .portfolioProj {
+    background-color: pink;    
+    font-size: 1rem;
+    color: white;
 }
 
 .container-project .projDashboard {
     background-color: rgb(65, 65, 156);
-    width: 240px;
-    height: 240px;
-    border-radius: 5px;
-    border: 3px solid gray;
-    padding: 1rem;
     font-size: .7rem;
     color: white;
 }
 
 .container-project .projEcommerce {
     background-color: rgb(77, 168, 77);
-    width: 240px;
-    height: 240px;
-    border-radius: 5px;
-    border: 3px solid gray;
-    padding: 1rem;
     font-size: .7rem;
     color: white;
 }
 
 .container-project .projCrudOther {
     background-color: rgb(95, 47, 128);
-    width: 240px;
-    height: 240px;
-    border-radius: 5px;
-    border: 3px solid gray;
-    padding: 1rem;
     font-size: .7rem;
     color: white;
 }
